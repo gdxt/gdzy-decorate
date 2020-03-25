@@ -52,3 +52,4 @@ logging:
 wechat:
   appid: wx1d80ea15b10e92a6
   secret: ffd9258e87fe6312fad2cba47693751b
+  code2sessionUrl: https://api.weixin.qq.com/sns/jscode2session

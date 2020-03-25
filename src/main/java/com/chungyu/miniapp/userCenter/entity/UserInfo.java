@@ -68,7 +68,6 @@ public class UserInfo extends Model<UserInfo> {
     /**
      * 答题状态(0-未答题；1-已答题)
      */
-    @TableLogic
     private int isAnswer;
 
 

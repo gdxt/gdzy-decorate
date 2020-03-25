@@ -3,6 +3,6 @@
 .idea
 *.iml
 /target
-/test
 
 /logs
+将删除 src/test/
