@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chungyu.miniapp.userCenter.mapper.UserInfoMapper">
+	<!-- 通用查询映射结果 -->
+	<resultMap id="baseResultMap" type="com.chungyu.miniapp.userCenter.entity.UserInfo">
+		<id column="id" property="id"/>
+		<result column="nick_name" property="nicName"/>
+		<result column="gender" property="gender"/>
+		<result column="city" property="city"/>
+		<result column="province" property="province"/>
+		<result column="country" property="country"/>
+		<result column="avatar_url" property="avatarUrl"/>
+		<result column="wx_openid" property="wxOpenid"/>
+		<result column="wx_unionid" property="wxUnionid"/>
+		<result column="phone" property="phone"/>
+		<result column="create_time" property="createTime"/>
+		<result column="is_delete" property="isDelete"/>
+		<result column="is_answer" property="isAnswer"/>
+	</resultMap>
+
+	<sql id="userInfoSql">
+		`user`.id,
+		`user`.nick_name,
+		`user`.`gender`,
+		`user`.city,
+		`user`.province,
+		`user`.country,
+		`user`.avatar_url,
+		`user`.wx_openid,
+		`user`.wx_unionid,
+		`user`.phone,
+		`user`.create_time,
+		`user`.is_delete,
+		`user`.is_answer
+	</sql>
+
+</mapper>

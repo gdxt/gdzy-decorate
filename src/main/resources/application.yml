@@ -1,0 +1,54 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: decorate
+  #数据库配置
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://49.232.32.126:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    hikari:
+      minimum-idle: 2
+      maximum-pool-size: 10
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: HikariCPPool
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: select 1
+  # redis配置
+  redis:
+    host: 49.232.32.126
+    port: 16379
+    password: gdzy2020
+    database: 1
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: 10000
+        max-idle: 3
+        min-idle: 1
+        timeout: 6000
+# myBatis-plus
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  global-config:
+    banner: false
+    db-config:
+      id-type: auto
+      table-underline: true
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+# 日志
+logging:
+  config: classpath:logback.xml
+
+wechat:
+  appid: wx1d80ea15b10e92a6
+  secret: ffd9258e87fe6312fad2cba47693751b

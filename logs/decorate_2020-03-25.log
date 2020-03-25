@@ -1,0 +1,44 @@
+2020-03-25 15:31:33.286 [main] INFO  org.springframework.core.KotlinDetector - Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-03-25 15:31:33.540 [main] INFO  com.chungyu.miniapp.DecorateApplication - Starting DecorateApplication on VincentxindeMacBook-Pro.local with PID 18917 (/Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate/target/classes started by vincentxin in /Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate)
+2020-03-25 15:31:33.540 [main] INFO  com.chungyu.miniapp.DecorateApplication - Starting DecorateApplication on VincentxindeMacBook-Pro.local with PID 18917 (/Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate/target/classes started by vincentxin in /Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate)
+2020-03-25 15:31:33.541 [main] INFO  com.chungyu.miniapp.DecorateApplication - No active profile set, falling back to default profiles: default
+2020-03-25 15:31:33.541 [main] INFO  com.chungyu.miniapp.DecorateApplication - No active profile set, falling back to default profiles: default
+2020-03-25 15:31:33.624 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-03-25 15:31:33.976 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-25 15:31:33.979 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-25 15:31:34.001 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-03-25 15:31:34.073 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.chungyu.miniapp]' package. Please check your configuration.
+2020-03-25 15:31:34.377 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-25 15:31:34.394 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-25 15:31:34.394 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 829 ms
+2020-03-25 15:31:34.951 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:31:35.227 [main] INFO  io.undertow - starting server: Undertow - 2.0.29.Final
+2020-03-25 15:31:35.231 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-25 15:31:35.237 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-25 15:31:35.294 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8088 (http) with context path ''
+2020-03-25 15:31:35.296 [main] INFO  com.chungyu.miniapp.DecorateApplication - Started DecorateApplication in 1.978 seconds (JVM running for 2.42)
+2020-03-25 15:31:35.296 [main] INFO  com.chungyu.miniapp.DecorateApplication - Started DecorateApplication in 1.978 seconds (JVM running for 2.42)
+2020-03-25 15:32:11.185 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:32:11.200 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.29.Final
+2020-03-25 15:32:13.417 [main] INFO  org.springframework.core.KotlinDetector - Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-03-25 15:32:13.769 [main] INFO  com.chungyu.miniapp.DecorateApplication - Starting DecorateApplication on VincentxindeMacBook-Pro.local with PID 18926 (/Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate/target/classes started by vincentxin in /Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate)
+2020-03-25 15:32:13.769 [main] INFO  com.chungyu.miniapp.DecorateApplication - Starting DecorateApplication on VincentxindeMacBook-Pro.local with PID 18926 (/Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate/target/classes started by vincentxin in /Users/vincentxin/IdeaProjects/02WorkSpace/gdzy-decorate)
+2020-03-25 15:32:13.770 [main] INFO  com.chungyu.miniapp.DecorateApplication - No active profile set, falling back to default profiles: default
+2020-03-25 15:32:13.770 [main] INFO  com.chungyu.miniapp.DecorateApplication - No active profile set, falling back to default profiles: default
+2020-03-25 15:32:13.885 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-03-25 15:32:14.405 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-25 15:32:14.408 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-25 15:32:14.433 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-03-25 15:32:14.517 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.chungyu.miniapp]' package. Please check your configuration.
+2020-03-25 15:32:14.806 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-25 15:32:14.820 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-25 15:32:14.820 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1017 ms
+2020-03-25 15:32:15.360 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:32:15.635 [main] INFO  io.undertow - starting server: Undertow - 2.0.29.Final
+2020-03-25 15:32:15.639 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-25 15:32:15.645 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-25 15:32:15.705 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8088 (http) with context path ''
+2020-03-25 15:32:15.708 [main] INFO  com.chungyu.miniapp.DecorateApplication - Started DecorateApplication in 2.249 seconds (JVM running for 2.914)
+2020-03-25 15:32:15.708 [main] INFO  com.chungyu.miniapp.DecorateApplication - Started DecorateApplication in 2.249 seconds (JVM running for 2.914)
+2020-03-25 16:01:58.355 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:01:58.373 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.29.Final
